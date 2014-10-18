@@ -1,0 +1,22 @@
+{
+  "name": "generator-octoman",
+  "version": "1.0.0",
+  "description": "Yeoman Generator for octopress like setup for node using assemble.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sathyamvellal/octoman"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Sathyam Vellal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sathyamvellal/octoman/issues"
+  },
+  "homepage": "http://sathyamvellal.in/octoman"
+}
