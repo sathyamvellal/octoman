@@ -4,8 +4,8 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         config: {
-            src: 'src',
-            dist: 'dist'
+            src: 'source',
+            dist: '_deploy'
         },
         assemble: {
             options: {
@@ -17,17 +17,6 @@ module.exports = function (grunt) {
                 marked: {
                     breaks: false,
                     gfm: true,
-                    //                    highlight: function (code, lang, callback) {
-                    //                        pygmentize({
-                    //                                lang: lang,
-                    //                                format: 'html'
-                    //                            },
-                    //                            code,
-                    //                            function (err, result) {
-                    //                                callback(err, result.toString());
-                    //                            }
-                    //                        );
-                    //                    },
                     langPrefix: 'language-',
                     pedantic: false,
                     sanitize: false,

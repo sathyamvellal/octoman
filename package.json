@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sathyamvellal/octoman/issues"
   },
-  "homepage": "http://sathyamvellal.in/octoman"
+  "homepage": "http://sathyamvellal.in/octoman",
+  "dependencies": {
+    "yeoman-generator": "^0.17.7"
+  }
 }
