@@ -1,8 +1,21 @@
-OCTOMAN
-=======
+OctoMan v0.7
+============
 
 I love octopress for its structure and node. So I thought - why not combine the two?  
-Behold!
+
+OctoMan is a yeoman-generator which straps an bare assemble.js setup along with a host of other addons to enable easy blogging, just like octopress!
+
+### Features
+
+* One time configuration during generation!
+* Uses assemble.js at its core and that means handlebars for templating by default
+* Uses less
+* Deploy to github pages
+
+### Future
+
+* Blogging support
+* UI with node-webkit (planned)
 
 ### LICENSE
 
