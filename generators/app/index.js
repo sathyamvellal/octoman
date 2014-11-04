@@ -21,11 +21,15 @@ var OctomanBase = yeoman.generators.Base.extend({
             var itemGroup = this.itemGroups[i];
             
             for (var j in itemGroup.files) {
-                this.template(this.prefixPath(itemGroup.src, itemGroup.files[j]), this.prefixPath(itemGroup.dest, itemGroup.files[j]), this.templateContext);
+                var from = this.prefixPath(itemGroup.src, itemGroup.files[j]);
+                var to = this.prefixPath(itemGroup.dest, itemGroup.files[j]);
+                this.template(from, to, this.templateContext);
             }
 
             for (var j in itemGroup.directories) {
-                this.directory(this.prefixPath(itemGroup.src, itemGroup.directories[j]), this.prefixPath(itemGroup.dest, itemGroup.directories[j]));
+                var from = this.prefixPath(itemGroup.src, itemGroup.directories[j]);
+                var to = this.prefixPath(itemGroup.dest, itemGroup.directories[j])
+                this.directory(from, to);
             }
         }
     },
