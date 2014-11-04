@@ -1,6 +1,6 @@
 {
   "name": "generator-octoman",
-  "version": "1.0.0",
+  "version": "0.7.0",
   "description": "Yeoman Generator for octopress like setup for node using assemble.js",
   "main": "index.js",
   "scripts": {
